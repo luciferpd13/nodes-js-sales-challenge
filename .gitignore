@@ -1,0 +1,13 @@
+node_modules
+dist
+
+#IntelliJ files
+**/*.iml
+**/.idea
+**/.gradle
+
+**/target/
+
+*.jar
+*.war
+*.ear
