@@ -6,8 +6,12 @@ const {MONGO_URI} = require('./config/config');
 
 const salesRoutes = require('./routes/api/sales_controller');
 
+const bodyParser = require('body-parser');
 const app = express();
+
 app.use(express.json());
+app.use(bodyParser.urlencoded({extended:true})) 
+app.use(bodyParser.json()) 
 
 mongoose.connect(MONGO_URI, {
     useNewUrlParser : true,
