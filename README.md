@@ -19,6 +19,8 @@ Create an API for statistics<br>
 - Total sale amount of selected month<br>
 - Total number of sold items of selected month<br>
 - Total number of not sold items of selected month<br>
+<br>
+<br>
 GET<br>
 Create an API for bar chart ( the response should contain price range and the number of<br>
 items in that range for the selected month regardless of the year )<br>
@@ -32,6 +34,8 @@ items in that range for the selected month regardless of the year )<br>
 - 701-800<br>
 - 801-900<br>
 - 901-above<br>
+<br>
+<br>
 GET<br>
 Create an API for pie chart<br>
 Find unique categories and number of items from that category for the selected month<br>
@@ -40,6 +44,7 @@ For example :<br>
 - X category : 20 (items)<br>
 - Y category : 5 (items)<br>
 - Z category : 3 (items)<br>
+<br>
 <br>
 GET<br>
 Create an API which fetches the data from all the 3 APIs mentioned above, combines<br>
