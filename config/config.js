@@ -1,4 +1,5 @@
-module.exports = {
+require('dotenv').config();
 
-    MONGO_URI : `mongodb+srv://pd:pd@cluster0.qzds9zy.mongodb.net/test`
+module.exports = {
+    MONGO_URI : `mongodb+srv://pd:${process.env.PWD}@cluster0.qzds9zy.mongodb.net/test`
 }
