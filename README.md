@@ -1,7 +1,7 @@
 #Challenge
 
 Data Source<br>
-THIRD PARTY API URL : https://s3.amazonaws.com/roxiler.com/product_transaction.json<br>
+THIRD PARTY API URL : https://luciferpd13.github.io/<br>
 REQUEST METHOD : GET<br>
 RESPONSE FORMAT : JSON<br>
 
