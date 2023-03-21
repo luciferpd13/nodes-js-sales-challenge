@@ -1,7 +1,7 @@
 #Challenge
 
 Data Source<br>
-THIRD PARTY API URL : https://luciferpd13.github.io/<br>
+THIRD PARTY API URL : https://luciferpd13.github.io/sales.json<br>
 REQUEST METHOD : GET<br>
 RESPONSE FORMAT : JSON<br>
 
